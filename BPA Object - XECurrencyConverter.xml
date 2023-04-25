@@ -1,0 +1,1672 @@
+﻿<process name="XECurrencyConverter" version="1.0" bpversion="5.0.32.0" narrative="VBO currency converter" type="object" runmode="Exclusive" preferredid="4894f4a7-ec71-41b3-b059-365d2b918fba">
+  <appdef>
+    <element name="XECurrencyConverter">
+      <id>0b280d64-2d31-4b1f-80b6-5ee0d5ded302</id>
+      <element name="InputValue">
+        <id>ae8136c1-94fd-4c89-a8bd-23be54cef49b</id>
+        <type>HTMLEdit</type>
+        <basetype>HTMLEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="102" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(2)/DIV(1)/DIV(1)/FORM(1)/SPAN(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="uccInput uccAmount" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="amount" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="Amount" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="1" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="http://www.xe.com/currencyconverter/" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:92,380,404,193" />
+          </attribute>
+          <attribute name="MatchIndex" inuse="True">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="FromCurrency">
+        <id>18ec10e1-f1e8-4c12-8881-c936be2798ea</id>
+        <type>HTMLEdit</type>
+        <basetype>HTMLEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="250" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="45" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(2)/DIV(1)/DIV(1)/FORM(1)/SPAN(2)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="ac_flag_input" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="from" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="USD - US Dollar" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="http://www.xe.com/currencyconverter/" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:207,370,415,457" />
+          </attribute>
+          <attribute name="MatchIndex" inuse="True">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="ToCurrency">
+        <id>7c400c9c-4368-46a3-bd9f-8f71b55a1302</id>
+        <type>HTMLEdit</type>
+        <basetype>HTMLEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="250" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="45" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(2)/DIV(1)/DIV(1)/FORM(1)/SPAN(4)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="ac_flag_input" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="to" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="INR - Indian Rupee" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="http://www.xe.com/currencyconverter/" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:502,370,415,753" />
+          </attribute>
+          <attribute name="MatchIndex" inuse="True">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="GoButton">
+        <id>5f776b17-e3ef-4e8e-b84f-5c022db24f75</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="674" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="91" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="46" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="46" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(2)/DIV(1)/DIV(1)/FORM(1)/BUTTON(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="BUTTON" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="uccGoButton" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="ucc_go_btn_svg" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="Convert" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="7" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="Convert	" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="http://www.xe.com/currencyconverter/" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:765,369,415,811" />
+          </attribute>
+          <attribute name="MatchIndex" inuse="True">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Result">
+        <id>1591e43a-6377-4b94-b960-5ec7e6400454</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="297" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="162" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="45" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/SPAN(2)/SPAN(2)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="SPAN" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="uccResultAmount" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="63.6091" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="http://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=USD&amp;To=INR" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:388,354,399,550" />
+          </attribute>
+          <attribute name="MatchIndex" inuse="True">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="ResultFromCurrency">
+        <id>046fe6dc-7973-44fc-9afb-54a45373eb47</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="29" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="7" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="269" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="35" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/main(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/SPAN(2)/SPAN(1)" />
+          </attribute>
+          <attribute name="TagName">
+            <ProcessValue datatype="text" value="SPAN" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="uccFromResultAmount" />
+          </attribute>
+          <attribute name="ID">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="8" />
+          </attribute>
+          <attribute name="Value" comparisontype="dynamic" inuse="True">
+            <ProcessValue datatype="text" value="1 CAD =" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL">
+            <ProcessValue datatype="text" value="http://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=CAD&amp;To=INR" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:120,361,396,388" />
+          </attribute>
+          <attribute name="MatchIndex" inuse="True">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="MatchReverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>http://www.xe.com/currencyconverter/</value>
+        </parameter>
+        <parameter>
+          <name>ActiveTabOnly</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>21</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="b4c601df-4d17-4d14-9505-e8cc04f1b642" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="475f83bd-1581-45e6-8e46-69059c90fedf" type="Normal" published="True">
+    <name>Launch</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="62f22585-da1e-4d54-8a2a-6dc930ea29eb" type="Normal" published="True">
+    <name>Enter Input Value</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="3184d916-e8cb-46a3-a05a-6be9edda623f" type="Normal" published="True">
+    <name>Enter From Currency</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="51070573-c728-450d-b01e-48ce62c0057d" type="Normal" published="True">
+    <name>Enter To Currency</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e01f3042-5821-42e5-adbd-1e5c24625681" type="Normal" published="True">
+    <name>Click GO</name>
+    <view>
+      <camerax>-40</camerax>
+      <cameray>41</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="d58ff2ae-4eca-4598-b14b-192d0f52581f" type="Normal" published="True">
+    <name>Get Result</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="b1698983-f097-466d-8415-1897b78768f5" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>596f82b0-950b-4a26-addd-a51a67b73617</onsuccess>
+  </stage>
+  <stage stageid="596f82b0-950b-4a26-addd-a51a67b73617" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ddaaaad0-7392-41db-8d24-d23073bda436" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="a9dfdfa8-e8b9-494e-8870-1300b45a1a91" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>b4c601df-4d17-4d14-9505-e8cc04f1b642</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1ad860e8-b2e2-4e45-b5fa-81af2cd1d304" name="Start" type="Start">
+    <subsheetid>b4c601df-4d17-4d14-9505-e8cc04f1b642</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>f3517d52-63a6-42ac-bc68-c2d86f296cd7</onsuccess>
+  </stage>
+  <stage stageid="f3517d52-63a6-42ac-bc68-c2d86f296cd7" name="End" type="End">
+    <subsheetid>b4c601df-4d17-4d14-9505-e8cc04f1b642</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="9eba56f9-732a-48a5-ae2d-09a3088f0973" name="Launch" type="SubSheetInfo">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b4fa0e66-7565-4603-a152-c0d975542bf1" name="Start" type="Start">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>886c9788-7df2-4001-ae62-dc95d3461351</onsuccess>
+  </stage>
+  <stage stageid="1d87d6f1-324c-4409-9066-76b6867ff16b" name="End" type="End">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="45b4e608-481c-486c-8f64-dc5d6738c666" name="Note1" type="Note">
+    <subsheetid>b4c601df-4d17-4d14-9505-e8cc04f1b642</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b21c0f19-679f-402e-9fd8-d6efcbbfe348" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="886c9788-7df2-4001-ae62-dc95d3461351" name="Launch" type="Navigate">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>e814b24a-e0ed-425e-b3a1-e001d3243a71</onsuccess>
+    <step>
+      <element id="0b280d64-2d31-4b1f-80b6-5ee0d5ded302" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="351310cd-af2e-45b6-91bc-f5966f177cf9" name="Enter Input Value" type="SubSheetInfo">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f9113fb8-fbc2-456f-91bc-7f5ff81bc625" name="Start" type="Start">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="InputValue" stage="InputValue" />
+    </inputs>
+    <onsuccess>7ceac8c5-e072-4661-bdf8-9e06b1acfc4e</onsuccess>
+  </stage>
+  <stage stageid="d1e0e3a6-4079-46cc-b422-e9d29813fc35" name="End" type="End">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="91f6447e-0033-439d-9557-a743a4d14b00" name="Enter Input Value" type="Write">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>d1e0e3a6-4079-46cc-b422-e9d29813fc35</onsuccess>
+    <step expr="[InputValue]">
+      <element id="ae8136c1-94fd-4c89-a8bd-23be54cef49b" />
+    </step>
+  </stage>
+  <stage stageid="bcbb18b4-2050-439f-aab1-3a1629691786" name="InputValue" type="Data">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-240</displayx>
+    <displayy>0</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="aad1fe8c-5c95-40f3-82a6-fbc2017cb6cf" name="Enter From Currency" type="SubSheetInfo">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-300</displayx>
+    <displayy>-150</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ed46780a-402d-4d9c-9eba-240b9ea938a7" name="Start" type="Start">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="FromCurrency" stage="FromCurrency" />
+    </inputs>
+    <onsuccess>ce8b784a-7feb-4130-a228-b186c6a7a703</onsuccess>
+  </stage>
+  <stage stageid="19a95946-6171-4cce-9b9d-9d0b52d85c1d" name="End" type="End">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="7e504927-c1cd-4220-812e-977682778ff4" name="Enter From Currency" type="Write">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>75</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>19a95946-6171-4cce-9b9d-9d0b52d85c1d</onsuccess>
+    <step expr="[FromCurrency]">
+      <element id="18ec10e1-f1e8-4c12-8881-c936be2798ea" />
+    </step>
+  </stage>
+  <stage stageid="3cb75525-bfc8-452f-b37e-6381b03bba63" name="FromCurrency" type="Data">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-345</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="889d615a-9242-4d1a-879c-13918499a46b" name="Enter To Currency" type="SubSheetInfo">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b878caca-4994-4f5f-813e-d709f07a40bc" name="Start" type="Start">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="ToCurrency" stage="ToCurrency" />
+    </inputs>
+    <onsuccess>23b5240a-c3da-4790-bd94-24bfef53fb24</onsuccess>
+  </stage>
+  <stage stageid="6ccb687d-286f-41aa-a87e-9a1114efb782" name="End" type="End">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c28ee540-e5a7-451e-98c9-2abce7c0a46a" name="Enter To Currency" type="Write">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>6ccb687d-286f-41aa-a87e-9a1114efb782</onsuccess>
+    <step expr="[ToCurrency]">
+      <element id="7c400c9c-4368-46a3-bd9f-8f71b55a1302" />
+    </step>
+  </stage>
+  <stage stageid="cadbd93a-5996-4dda-a31e-875510a81a5d" name="ToCurrency" type="Data">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-240</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1536246b-6c10-4edb-8fed-aaa67e962ad6" name="Click GO" type="SubSheetInfo">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-315</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="92dc7f7d-41ab-4fa0-bbcc-c311587cf638" name="Start" type="Start">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-135</displayx>
+    <displayy>-255</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="InputValue" stage="InputValue" />
+      <input type="text" name="Currency" stage="Currency" />
+    </inputs>
+    <onsuccess>af3e2388-d0f4-481d-8160-22f0ee3e3e94</onsuccess>
+  </stage>
+  <stage stageid="1ddc755e-91b5-4908-ab57-f2d33d38c925" name="End" type="End">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="2b20705f-ba9a-4b91-9a87-9a47419cce27" name="Click" type="Navigate">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>cca869f9-a8f9-41a1-827a-042043eaab34</onsuccess>
+    <step>
+      <element id="5f776b17-e3ef-4e8e-b84f-5c022db24f75" />
+      <action>
+        <id>HTMLClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="64a34718-5d8f-4133-9476-eb5cb9dab989" name="Get Result" type="SubSheetInfo">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f167e1e4-1e45-4ef3-8bda-732383db399c" name="Start" type="Start">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>ac4185a9-a6fb-4c61-9da8-6bec402cac65</onsuccess>
+  </stage>
+  <stage stageid="689b48ad-92c5-433b-aae0-5950e95ab754" name="End" type="End">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Result" stage="Result" />
+    </outputs>
+  </stage>
+  <stage stageid="7947a255-c453-4c92-8322-ea611ff267e1" name="Read Result" type="Read">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>689b48ad-92c5-433b-aae0-5950e95ab754</onsuccess>
+    <step stage="Result">
+      <element id="1591e43a-6377-4b94-b960-5ec7e6400454" />
+      <action>
+        <id>ReadCurrentValue</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="e2261df5-81c8-4975-849b-2a374804f86e" name="Result" type="Data">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-240</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="fd6b201e-356b-463e-9ff9-4a63fc62a22f" name="Time Out1" type="WaitEnd">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>135</displayx>
+    <displayy>30</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>5875ec80-61b3-4cc6-93cf-84a36acd76f7</onsuccess>
+    <groupid>0383a0be-7b9b-4f97-baa4-d12fd0751d8c</groupid>
+  </stage>
+  <stage stageid="e814b24a-e0ed-425e-b3a1-e001d3243a71" name="Wait1" type="WaitStart">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>0383a0be-7b9b-4f97-baa4-d12fd0751d8c</groupid>
+    <choices>
+      <choice reply="True">
+        <name>InputValue Check Exists</name>
+        <distance>60</distance>
+        <ontrue>1d87d6f1-324c-4409-9066-76b6867ff16b</ontrue>
+        <element id="ae8136c1-94fd-4c89-a8bd-23be54cef49b" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>180</timeout>
+  </stage>
+  <stage stageid="23eb64fc-09f8-460d-90e4-6b91d1aef245" name="Time Out2" type="WaitEnd">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>180</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>f9b0ac47-213f-44d1-9033-6ae8fb4d30bc</onsuccess>
+    <groupid>6aaa848a-83ab-4e9a-bacf-e52977f0c4d4</groupid>
+  </stage>
+  <stage stageid="65ae610f-90b6-4999-a474-12c08c3ce111" name="Wait2" type="WaitStart">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>90</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>6aaa848a-83ab-4e9a-bacf-e52977f0c4d4</groupid>
+    <choices>
+      <choice reply="True">
+        <name>ResultFromCurrency Check Exists</name>
+        <distance>45</distance>
+        <ontrue>1ddc755e-91b5-4908-ab57-f2d33d38c925</ontrue>
+        <element id="046fe6dc-7973-44fc-9afb-54a45373eb47">
+          <elementparameter>
+            <name>Value</name>
+            <expression>[ResultFromCurrency]</expression>
+            <datatype>text</datatype>
+            <comparisontype>Equal</comparisontype>
+          </elementparameter>
+        </element>
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>60</timeout>
+  </stage>
+  <stage stageid="65186dfe-2827-4c73-a2e9-733c1be98421" name="InputValue" type="Data">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-360</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a42e86ca-4759-4f66-8439-37ae5f4dc6ff" name="Currency" type="Data">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-270</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="af3e2388-d0f4-481d-8160-22f0ee3e3e94" name="Calculate ResultFromCurrency" type="Calculation">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-135</displayx>
+    <displayy>-195</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>33cabffa-bbe3-47df-b4c6-04c2cb10162c</onsuccess>
+    <calculation expression="[InputValue]&amp;&quot; &quot;&amp;[Currency]&amp;&quot; =&quot;" stage="ResultFromCurrency" />
+  </stage>
+  <stage stageid="3528d287-4509-4845-86e5-a6ae958c7a9b" name="ResultFromCurrency" type="Data">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-315</displayx>
+    <displayy>45</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7e1afeca-c1f9-4c0a-9fad-052b207cd844" name="Recover1" type="Recover">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>4648d8cc-f404-44b6-a229-c12890432768</onsuccess>
+  </stage>
+  <stage stageid="4648d8cc-f404-44b6-a229-c12890432768" name="Resume1" type="Resume">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>b5485364-7b97-4ad0-b04a-95863452c007</onsuccess>
+  </stage>
+  <stage stageid="b5485364-7b97-4ad0-b04a-95863452c007" name="Exception1" type="Exception">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>315</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Enter From Currency field not found&quot;" />
+  </stage>
+  <stage stageid="5875ec80-61b3-4cc6-93cf-84a36acd76f7" name="Exception - Launch" type="Exception">
+    <subsheetid>475f83bd-1581-45e6-8e46-69059c90fedf</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Launch Failed&quot;" />
+  </stage>
+  <stage stageid="90391667-742a-45f8-b5ad-6e9642d7998d" name="Time Out3" type="WaitEnd">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>1e7e0240-3428-41de-803d-ee2c38d334df</onsuccess>
+    <groupid>86f1aed2-72f5-4dde-8809-22de6d9214d0</groupid>
+  </stage>
+  <stage stageid="7ceac8c5-e072-4661-bdf8-9e06b1acfc4e" name="Wait3" type="WaitStart">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-45</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>86f1aed2-72f5-4dde-8809-22de6d9214d0</groupid>
+    <choices>
+      <choice reply="True">
+        <name>InputValue Check Exists</name>
+        <distance>60</distance>
+        <ontrue>91f6447e-0033-439d-9557-a743a4d14b00</ontrue>
+        <element id="ae8136c1-94fd-4c89-a8bd-23be54cef49b" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>20</timeout>
+  </stage>
+  <stage stageid="1e7e0240-3428-41de-803d-ee2c38d334df" name="Exception - Input Field" type="Exception">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Input Filed not found&quot;" />
+  </stage>
+  <stage stageid="0ace5273-b7f3-4aa7-9721-6bd2af5b4ad9" name="Recover2" type="Recover">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>635e3488-2165-4d28-a9d0-3fa97a9a3520</onsuccess>
+  </stage>
+  <stage stageid="635e3488-2165-4d28-a9d0-3fa97a9a3520" name="Resume2" type="Resume">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>105</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>daeaa585-216f-4d3d-864f-897688e73883</onsuccess>
+  </stage>
+  <stage stageid="daeaa585-216f-4d3d-864f-897688e73883" name="Exception - Write Input Field" type="Exception">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Write Input Field failed&quot;" />
+  </stage>
+  <stage stageid="bb5c7015-762a-4015-a9fc-fd082b7daf96" name="Block1" type="Block">
+    <subsheetid>62f22585-da1e-4d54-8a2a-6dc930ea29eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-30</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>75</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="49bc9aef-b9fa-46c3-bf63-7598331918f8" name="Time Out4" type="WaitEnd">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>f894b93f-0dec-4163-9629-6fac68f12c0b</onsuccess>
+    <groupid>5851659a-5594-45cd-b567-21d5d9b21229</groupid>
+  </stage>
+  <stage stageid="ce8b784a-7feb-4130-a228-b186c6a7a703" name="Wait4" type="WaitStart">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>5851659a-5594-45cd-b567-21d5d9b21229</groupid>
+    <choices>
+      <choice reply="True">
+        <name>FromCurrency Check Exists</name>
+        <distance>60</distance>
+        <ontrue>7e504927-c1cd-4220-812e-977682778ff4</ontrue>
+        <element id="18ec10e1-f1e8-4c12-8881-c936be2798ea" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>30</timeout>
+  </stage>
+  <stage stageid="f894b93f-0dec-4163-9629-6fac68f12c0b" name="Exception - From Currency" type="Exception">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>315</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;From Currency field not found&quot;" />
+  </stage>
+  <stage stageid="6d1e9ee2-657b-44e3-952d-cebeb3d4c658" name="Block2" type="Block">
+    <subsheetid>3184d916-e8cb-46a3-a05a-6be9edda623f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>0</displayy>
+    <displaywidth>195</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="b50171be-f4ec-42f4-aaeb-20878ae15971" name="Time Out5" type="WaitEnd">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>ad5b0606-b4eb-49d2-b9c2-6aba4c6d323f</onsuccess>
+    <groupid>26cdca14-c00b-4cc8-84b0-2987aa0c7f74</groupid>
+  </stage>
+  <stage stageid="23b5240a-c3da-4790-bd94-24bfef53fb24" name="Wait5" type="WaitStart">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>26cdca14-c00b-4cc8-84b0-2987aa0c7f74</groupid>
+    <choices>
+      <choice reply="True">
+        <name>ToCurrency Check Exists</name>
+        <distance>75</distance>
+        <ontrue>c28ee540-e5a7-451e-98c9-2abce7c0a46a</ontrue>
+        <element id="7c400c9c-4368-46a3-bd9f-8f71b55a1302" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>30</timeout>
+  </stage>
+  <stage stageid="a8c939bc-1e71-46ae-8534-8dcd3e097aab" name="Recover3" type="Recover">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>a95ebe26-f665-49ba-a027-ee335c0ed796</onsuccess>
+  </stage>
+  <stage stageid="a95ebe26-f665-49ba-a027-ee335c0ed796" name="Resume3" type="Resume">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>195</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>4de02a92-b1e9-4ae0-9840-0ea1d5077896</onsuccess>
+  </stage>
+  <stage stageid="ad5b0606-b4eb-49d2-b9c2-6aba4c6d323f" name="Exception2" type="Exception">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>300</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;To Currency Field Not found&quot;" />
+  </stage>
+  <stage stageid="4de02a92-b1e9-4ae0-9840-0ea1d5077896" name="Exception3" type="Exception">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>300</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Write to To Currency failed&quot;" />
+  </stage>
+  <stage stageid="fa1ac5b9-c476-4f87-b60c-29888c19b8af" name="Block3" type="Block">
+    <subsheetid>51070573-c728-450d-b01e-48ce62c0057d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>45</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>75</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="6555c657-34f5-4eb4-8586-4ee017332605" name="Time Out6" type="WaitEnd">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>d8b28e78-b3bc-482a-8091-e28a6ece5923</onsuccess>
+    <groupid>e4567270-c5fa-48ec-9458-c318024acfad</groupid>
+  </stage>
+  <stage stageid="33cabffa-bbe3-47df-b4c6-04c2cb10162c" name="Wait6" type="WaitStart">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-135</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>e4567270-c5fa-48ec-9458-c318024acfad</groupid>
+    <choices>
+      <choice reply="True">
+        <name>GoButton Check Exists</name>
+        <distance>60</distance>
+        <ontrue>2b20705f-ba9a-4b91-9a87-9a47419cce27</ontrue>
+        <element id="5f776b17-e3ef-4e8e-b84f-5c022db24f75" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>30</timeout>
+  </stage>
+  <stage stageid="d8b28e78-b3bc-482a-8091-e28a6ece5923" name="Exception4" type="Exception">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Go Button not found&quot;" />
+  </stage>
+  <stage stageid="adf33309-98a7-4dbf-9651-1254a0756ada" name="Exception5" type="Exception">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Click Go Button failed&quot;" />
+  </stage>
+  <stage stageid="f9b0ac47-213f-44d1-9033-6ae8fb4d30bc" name="Exception6" type="Exception">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>150</displayx>
+    <displayy>180</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;ResultFrom not found&quot;" />
+  </stage>
+  <stage stageid="7ae751a2-b215-431c-8cf0-097fe8a2e444" name="Recover4" type="Recover">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>c62bacb0-14cb-4a01-a8de-444f51c96638</onsuccess>
+  </stage>
+  <stage stageid="c62bacb0-14cb-4a01-a8de-444f51c96638" name="Resume4" type="Resume">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>adf33309-98a7-4dbf-9651-1254a0756ada</onsuccess>
+  </stage>
+  <stage stageid="6a306cb0-7c6f-4502-ab9a-f427ab518e2a" name="Block4" type="Block">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-120</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>195</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="6749f014-250f-4b0b-b808-fcbad81d06fe" name="Time Out7" type="WaitEnd">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>7e13b4f7-da3d-460d-95a7-6f5c08c7647b</onsuccess>
+    <groupid>b40c3c12-6177-4414-a1b6-97a46a79e221</groupid>
+  </stage>
+  <stage stageid="ac4185a9-a6fb-4c61-9da8-6bec402cac65" name="Wait7" type="WaitStart">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>30</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <groupid>b40c3c12-6177-4414-a1b6-97a46a79e221</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Result Check Exists</name>
+        <distance>75</distance>
+        <ontrue>7947a255-c453-4c92-8322-ea611ff267e1</ontrue>
+        <element id="1591e43a-6377-4b94-b960-5ec7e6400454" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>30</timeout>
+  </stage>
+  <stage stageid="7e13b4f7-da3d-460d-95a7-6f5c08c7647b" name="Exception7" type="Exception">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Result field not found&quot;" />
+  </stage>
+  <stage stageid="3abb64d1-b37f-4728-9b40-7c365adabfd2" name="Recover5" type="Recover">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>a21165f2-1de0-4349-94f2-9a0f66acc268</onsuccess>
+  </stage>
+  <stage stageid="a21165f2-1de0-4349-94f2-9a0f66acc268" name="Resume5" type="Resume">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>cfb28b34-7b01-41e3-a243-533ff32c0d91</onsuccess>
+  </stage>
+  <stage stageid="cfb28b34-7b01-41e3-a243-533ff32c0d91" name="Exception8" type="Exception">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>270</displayx>
+    <displayy>150</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <exception type="System" detail="&quot;Read Result failed&quot;" />
+  </stage>
+  <stage stageid="b4520012-9f10-40f1-9c99-a8f8031b7241" name="Block5" type="Block">
+    <subsheetid>d58ff2ae-4eca-4598-b14b-192d0f52581f</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>30</displayx>
+    <displayy>30</displayy>
+    <displaywidth>210</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="cca869f9-a8f9-41a1-827a-042043eaab34" name="Static Wait" type="Action">
+    <subsheetid>e01f3042-5821-42e5-adbd-1e5c24625681</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-75</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="Sleep Time (Seconds)" narrative="The time (in seconds) for which to sleep" expr="5" />
+    </inputs>
+    <onsuccess>65ae610f-90b6-4999-a474-12c08c3ce111</onsuccess>
+    <resource object="Utility - General" action="Sleep" />
+  </stage>
+</process>
